@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="2" name="Test" parallel="classes">
+    <classes>
+      <class name="Testng2.ShoesPuma"/>
+      <class name="TestngBasic.MultipleTestCase"/>
+      <class name="Testng1.BikeFZ"/>
+      <class name="Testng1.BikeRoyalaEnfield"/>
+      <class name="Testng1.BikeUnicorn"/>
+      <class name="Testng2.ShoesNike"/>
+      <class name="Testng2.ShoesWoodland"/>
+      <class name="Testng1.BikeAvenger"/>
+      <class name="Testng1.BikeBMW"/>
+      <class name="Testng2.ShoesSneakers"/>
+      <class name="Testng2.ShoesCampus"/>
+      <class name="TestngBasic.StartTestNg"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
